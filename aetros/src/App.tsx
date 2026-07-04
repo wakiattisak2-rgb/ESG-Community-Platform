@@ -8,6 +8,8 @@ import { CommunityPage } from '@/pages/CommunityPage'
 import { MarketplacePage } from '@/pages/MarketplacePage'
 import { WorkshopPage } from '@/pages/WorkshopPage'
 import { useAppStore } from '@/store/useAppStore'
+import { isSupabaseConfigured } from '@/lib/supabase'
+import { initSupabaseSession } from '@/lib/supabaseAuth'
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -35,7 +37,19 @@ function AnimatedRoutes() {
 
 function App() {
   useEffect(() => {
-    useAppStore.getState().ensureGuestAccess()
+    const boot = async () => {
+      if (isSupabaseConfigured()) {
+        const session = await initSupabaseSession()
+        if (session) {
+          const { login, syncProfileStats } = useAppStore.getState()
+          login(session.user)
+          syncProfileStats(session.xp, session.carbonCredits)
+          return
+        }
+      }
+      useAppStore.getState().ensureGuestAccess()
+    }
+    void boot()
   }, [])
 
   return (

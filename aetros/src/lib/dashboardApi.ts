@@ -8,12 +8,12 @@ export interface LogActionResult {
   carbonCredits: number
 }
 
-function mapRow(row: Record<string, unknown>): ActionLog {
+function mapActionsLogRow(row: Record<string, unknown>): ActionLog {
   return {
     id: String(row.id),
     actionType: String(row.action_type),
-    xpEarned: Number(row.xp_earned),
-    carbonCredits: Number(row.carbon_credits),
+    xpEarned: Number(row.xp_awarded ?? row.xp_earned),
+    carbonCredits: Number(row.credits_awarded ?? row.carbon_credits),
     note: row.note ? String(row.note) : undefined,
     createdAt: String(row.created_at),
   }
@@ -26,23 +26,32 @@ export async function logActionRpc(
 ): Promise<LogActionResult | null> {
   if (!isSupabaseConfigured() || !supabase) return null
 
+  const action = getActionById(actionTypeId)
+  if (!action) return null
+
   const { data, error } = await supabase.rpc('log_action', {
-    p_user_id: userId,
     p_action_type: actionTypeId,
+    p_xp: action.xp,
+    p_credits: action.carbonCredits,
     p_note: note ?? null,
   })
 
   if (error) throw error
 
-  const payload = data as {
-    log: Record<string, unknown>
-    profile: { xp: number; carbon_credits: number }
-  }
+  const row = data as Record<string, unknown>
+
+  const { data: profile, error: profileError } = await supabase
+    .from('profiles')
+    .select('xp, carbon_credits')
+    .eq('id', userId)
+    .single()
+
+  if (profileError) throw profileError
 
   return {
-    log: mapRow(payload.log),
-    xp: payload.profile.xp,
-    carbonCredits: payload.profile.carbon_credits,
+    log: mapActionsLogRow(row),
+    xp: Number(profile.xp),
+    carbonCredits: Number(profile.carbon_credits),
   }
 }
 
@@ -53,17 +62,17 @@ export function subscribeActionLogs(
   if (!isSupabaseConfigured() || !supabase) return null
 
   const channel = supabase
-    .channel(`action_logs:${userId}`)
+    .channel(`actions_log:${userId}`)
     .on(
       'postgres_changes',
       {
         event: 'INSERT',
         schema: 'public',
-        table: 'action_logs',
+        table: 'actions_log',
         filter: `user_id=eq.${userId}`,
       },
       (payload) => {
-        onInsert(mapRow(payload.new as Record<string, unknown>))
+        onInsert(mapActionsLogRow(payload.new as Record<string, unknown>))
       }
     )
     .subscribe()
