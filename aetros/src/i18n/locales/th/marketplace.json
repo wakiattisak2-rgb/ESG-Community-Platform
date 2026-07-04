@@ -1,0 +1,39 @@
+{
+  "title": "Green Marketplace",
+  "subtitle": "แลก Carbon Credits เป็นรางวัลและผลกระทบที่จับต้องได้",
+  "balance": "ยอด Carbon Credits ของคุณ",
+  "redeem": "แลกรางวัล",
+  "insufficient": "Carbon Credits ไม่เพียงพอ",
+  "checkout": "ยืนยันการแลก",
+  "confirmRedeem": "ยืนยันการแลก {{name}} ด้วย {{cost}} Credits?",
+  "success": "แลกสำเร็จ!",
+  "receipt": "ใบเสร็จการแลก",
+  "redeemedAt": "แลกเมื่อ",
+  "close": "ปิด",
+  "products": {
+    "ecoPioneer": {
+      "name": "Eco Pioneer Badge",
+      "description": "Digital badge สำหรับสมาชิกที่เริ่มต้น journey ESG"
+    },
+    "treeCertificate": {
+      "name": "Tree Planting Certificate",
+      "description": "ใบรับรองการปลูกต้นไม้ 1 ต้นในป่าชุมชน"
+    },
+    "solarDiscount": {
+      "name": "Solar Panel Partner Discount",
+      "description": "ส่วนลด 15% จากพาร์ทเนอร์ Solar Tech"
+    },
+    "galaxyBadge": {
+      "name": "Galaxy Guardian Badge",
+      "description": "Badge พิเศษสำหรับ Impact Tier Galaxy"
+    },
+    "evCharger": {
+      "name": "EV Charger Voucher",
+      "description": "Voucher ชาร์จ EV ฟรี 5 ครั้ง"
+    },
+    "oceanGuardian": {
+      "name": "Ocean Guardian Certificate",
+      "description": "ใบรับรองการฟื้นฟูแนวปะการัง 1 ตารางเมตร"
+    }
+  }
+}

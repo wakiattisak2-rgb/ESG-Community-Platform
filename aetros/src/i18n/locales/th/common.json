@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "หน้าแรก",
+    "dashboard": "แดชบอร์ด",
+    "community": "ชุมชน",
+    "marketplace": "ตลาด",
+    "workshop": "Strategy Lab",
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "launch": "เริ่มสร้างจักรวาล"
+  },
+  "footer": {
+    "tagline": "จักรวาลแห่งความยั่งยืน เริ่มต้นที่ตัวคุณ",
+    "rights": "© 2026 Aetros. All rights reserved."
+  },
+  "tiers": {
+    "Seed": "เมล็ดพันธุ์",
+    "Sprout": "ต้นอ่อน",
+    "Forest": "ป่า",
+    "Galaxy": "กาแล็กซี่"
+  },
+  "roles": {
+    "member": "สมาชิก",
+    "expert": "ผู้เชี่ยวชาญ",
+    "moderator": "ผู้ดูแล",
+    "admin": "แอดมิน"
+  },
+  "topics": {
+    "all": "ทั้งหมด",
+    "environment": "สิ่งแวดล้อม",
+    "social": "สังคม",
+    "governance": "ธรรมาภิบาล"
+  },
+  "credits": "Carbon Credits",
+  "xp": "XP"
+}

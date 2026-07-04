@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "ESG · WEB3 · COMMUNITY",
+    "headlineBefore": "The Universe Begins",
+    "headlineHighlight": "Within",
+    "headlineAfter": "You.",
+    "description": "Aetros คือชุมชน deep-tech ด้าน ESG — เปลี่ยนความตระหนักของแต่ละคน ให้กลายเป็นผลกระทบต่อโลก",
+    "cta": "Launch Your Universe",
+    "ctaSecondary": "อ่าน Brand Story"
+  },
+  "stats": {
+    "carbonReduced": "KG CO₂ ลดลง",
+    "treesPlanted": "ต้นไม้ที่สนับสนุน",
+    "activeInnovators": "Active Innovators"
+  },
+  "story": {
+    "title": "Brand Story: AETROS",
+    "subtitle": "เชื่อม Aether + Ethos สู่ชุมชน ESG ระดับโลก",
+    "p1": "เรามักถูกพร่ำบอกให้ช่วยกัน \"รักษ์โลก\" ราวกับว่าโลกเป็นสิ่งภายนอกที่แยกออกจากตัวเรา",
+    "p2": "แต่ในความเป็นจริง มนุษย์และธรรมชาติไม่ได้แยกจากกัน เราทุกคนต่างประกอบขึ้นจากธาตุสารและพลังงานเดียวกันกับดวงดาวในจักรวาล",
+    "p3": "Aetros เชื่อว่า พลังที่จะขับเคลื่อนสิ่งแวดล้อม สังคม และธรรมาภิบาล (ESG) ที่แท้จริง ไม่ได้เริ่มต้นจากข้อบังคับ กฎเกณฑ์ หรือตัวเลขในรายงาน... แต่มันระเบิดออกมาจาก \"จักรวาลภายในตัวคุณ\"",
+    "p4": "คำว่า Aetros ถือกำเนิดจากการผสานตัวตนของ Aether (สสารโบราณที่ถักทอห้วงอวกาศ) และ Ethos (เข็มทิศคุณธรรมและธรรมาภิบาล)",
+    "p5": "เมื่อคุณขยับ โลกจะเคลื่อนไหว — มาร่วมปลดปล่อยบิ๊กแบงแห่งความยั่งยืนไปด้วยกัน"
+  },
+  "bento": {
+    "title": "ระบบนิเวศ Aetros",
+    "subtitle": "ทุกเครื่องมือที่คุณต้องการเพื่อสร้างผลกระทบที่แท้จริง",
+    "dashboard": {
+      "title": "Inner Universe",
+      "desc": "Eco-Avatar และ Action Tracker สำหรับบันทึกกิจกรรม ESG รายวัน"
+    },
+    "community": {
+      "title": "Global Community",
+      "desc": "แลกเปลี่ยนความรู้ Challenge และ Crowdsourcing ไอเดียสีเขียว"
+    },
+    "marketplace": {
+      "title": "Impact Rewards",
+      "desc": "แลก Carbon Credits เป็น badges, certificates และส่วนลดพาร์ทเนอร์"
+    },
+    "knowledge": {
+      "title": "Knowledge Hub",
+      "desc": "คลังความรู้ ESG สำหรับผู้เริ่มต้นจนผู้เชี่ยวชาญ รวมถึง ESG Report"
+    },
+    "workshop": {
+      "title": "Strategy Lab",
+      "desc": "Interactive JTBD → VPC → BMC workshop สำหรับตกผลึกโมเดลธุรกิจ"
+    }
+  }
+}

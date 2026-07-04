@@ -1,0 +1,128 @@
+
+ช่วยออกแบบ website "ESG Community Platform"Act as a world-class Full-Stack Developer and UX/UI Designer. Build a highly interactive, โดยช่วยพัฒนา ต่อยอด ที่ทำเป็นไอเดีย ไว้เป็น HTML ,  ผมได้ส่งเป็น codeมาให้คุณ
+--1.จุดประสงค์--- เพื่อสร้างชุมชน คนที่สนใจ ESG ตั้งแต่คนไม่มีความรู้เลย จนมีผู้เชี่ยวชาญที่ให้ทั้งความรู้ และเป็นที่แลกเปลี่ยน ทั้งความรุ้และะธุรกิจในรูปแบบต่างๆ
+2.mood & tone --> sustanability felling,/emotional
+3.มีทั้งภาษาไทยและอังกฤษ --cross comminucation
+4.เป้าหมาย-- คนที่ต้องทำรายงาน"ESG Report และ บุคคลที่สนใจทั่วไป
+5.ช่วงพัฒนาช่วงแรก การ sign in /Authขอเป็นแบบง่ายๆ --เพื่อทำกิจกรรมสะสมแต้มการ Engagementแล้วมาทำจริงๆที่หลัง
+6.Act as an elite Full-Stack Web3/Tech Startup Developer and UI/UX Designer. Build a highly interactive, global ESG Community Platform named "Aetros" using React, Vite, Tailwind CSS, and a robust backend integration (Supabase/Firebase). 
+
+The platform's core philosophy is "The Universe Begins Within You" — shifting the ESG narrative from corporate compliance to individual empowerment, utilizing global gamification and interactive community features.
+
+### 1. BRAND SYSTEM & VISUAL DESIGN
+
+- Theme: Futuristic, Cyber-Eco, Deep Tech Startup, Premium Dark Mode.
+
+- Color Palette:
+
+  - Primary Background: Deep Space Black (#0B0F19)
+
+  - Text & Accents: Cosmic Smoke Gray (#E2E8F0) and Pure White (#FFFFFF)
+
+  - Glow & CTA Neon: Aurora Neon Green (#00FF66)
+
+- Typography: Clean, modern sans-serif (e.g., Inter or Space Grotesk) with futuristic layout elements.
+
+- UI Components: Smooth micro-interactions, glassmorphism card styles, glowing borders on hover, dynamic entry animations (Framer Motion style), and floating interactive elements.
+
+### 2. CORE FEATURES & PAGES TO BUILD
+
+#### Page 1: Landing Page (The Gateway)
+
+- Hero Section: Immersive dark background with an interactive glowing neon particle system or spinning 3D-like galaxy icon. Text: "Aetros: The Universe Begins Within You." Neon CTA button: "Launch Your Universe".
+
+- Brand Story Section: Sleek scrolling presentation of the Aetros manifesto (Connecting Aether + Ethos into a global ESG community).
+
+- Live Global Impact Counter: A beautiful, ticking real-time dashboard showing "Global Carbon Reduced", "Trees Planted", and "Active Innovators".
+
+- Interactive Feature Bento Grid: Showing previews of the ecosystem (Community, Eco-Avatar, Carbon Tracker, Marketplace).
+
+#### Page 2: User Dashboard & "Inner Universe" Eco-Avatar
+
+- Personalized Dashboard: Greeting the user with their current "Impact Tier".
+
+- Gamified Eco-Avatar: An interactive SVG/Canvas widget representing the user's "Inner Universe". The avatar expands, glows, and changes form (from a single particle to a glowing eco-galaxy) as the user logs ESG activities and gains XP.
+
+- Dynamic Action Tracker: A fully functional form to log daily sustainable actions (e.g., commuting via EV, recycling, volunteering). Logging an action dynamically calculates and awards XP and Carbon Credits.
+
+#### Page 3: Global Community & Crowdsourcing Hub
+
+- Interactive Feed: Social feed where users and global organizations post green initiatives, ESG ideas, and tech proposals. Users can upvote (glowing neon effect), comment, and share.
+
+- Challenge Hub: A grid of ongoing global sustainability challenges (e.g., "7-Day Zero Waste Challenge"). Includes a functional "Join Challenge" button, progress tracking bar, and leaderboard showing top global contributors.
+
+#### Page 4: Green Marketplace & Impact Rewards
+
+- Tokenized Rewards Store: Users can spend their earned Carbon Credits here.
+
+- Product Cards: Futuristic grid featuring digital badges, tree-planting certificates, and sustainable tech partner discounts.
+
+- Functional Checkout: Clicking "Redeem" opens a smooth checkout modal, checks user's token balance, and simulates a successful transaction with a receipt popup.
+
+### 3. TECHNICAL & INTERACTIVE REQUIREMENTS
+
+- State Management: Implement a global state to manage user authentication state, current user profile, total XP, Carbon Credits balance, and logged actions across all pages seamlessly.
+
+- High Interactivity: Every button must have haptic-like hover effects (glow, slight scale up). Include smooth transitions between dashboard tabs or pages without full reloads.
+
+- Responsive Design: Flawlessly optimized for Desktop, Tablet, and Mobile devices (using mobile-first Tailwind design).
+
+- Data Persistence Mocking: Set up full mock data structures for profiles, feeds, and products so the prototype is immediately usable, interactive, and feels 100% production-ready.
+
+Build the full-stack architecture with clean, scalable code structures, modular components, and comprehensive responsive layouts.
+
+นี่คือ Brand Story และ Brand Colors Setup แบบจัดเต็ม เท่ ดุดัน และสร้างแรงบันดาลใจ สำหรับนำไปใช้บนหน้าเว็บไซต์ครับ
+
+------------------------------
+
+## 🌌 BRAND STORY: AETROS
+
+(คำบรรยายแบรนด์สำหรับหน้า Website - แนะนำให้ใช้พื้นหลังสีดำ Space Black ตัวอักษรสีขาว/ควันบุหรี่ และเน้นจุดสำคัญด้วยสีเขียว Aurora นีออน)
+
+[Headline / ส่วนหัว]
+
+## The Universe Begins Within You.
+
+จักรวาลแห่งความยั่งยืน... เริ่มต้นที่ตัวคุณ
+
+[Body Content / เนื้อหาหลัก]
+
+เรามักถูกพร่ำบอกให้ช่วยกัน "รักษ์โลก" ราวกับว่าโลกเป็นสิ่งภายนอกที่แยกออกจากตัวเรา
+
+แต่ในความเป็นจริง มนุษย์และธรรมชาติไม่ได้แยกจากกัน เราทุกคนต่างประกอบขึ้นจากธาตุสารและพลังงานเดียวกันกับดวงดาวในจักรวาล
+
+Aetros เชื่อว่า พลังที่จะขับเคลื่อนสิ่งแวดล้อม สังคม และธรรมาภิบาล (ESG) ที่แท้จริง ไม่ได้เริ่มต้นจากข้อบังคับ กฎเกณฑ์ หรือตัวเลขในรายงาน... แต่มันระเบิดออกมาจาก "จักรวาลภายในตัวคุณ" (Your Inner Universe) จากความตระหนักรู้ ไอเดีย และทุกๆ การกระทำเล็กๆ ของมนุษย์แต่ละคน ที่พร้อมจะสร้างแรงกระเพื่อมอันยิ่งใหญ่
+
+คำว่า Aetros ถือกำเนิดจากการผสานตัวตนของ Aether (สสารโบราณที่ถักทอห้วงอวกาศ) และ Ethos (เข็มทิศคุณธรรมและธรรมาภิบาล) เราไม่ใช่แค่แพลตฟอร์ม แต่เราคือ "เครือข่ายเทคโนโลยีแห่งอนาคต" ที่เชื่อมโยงผู้คน องค์กร และนวัตกรรมเข้าด้วยกัน เพื่อเปลี่ยนพลังงานจลน์ในตัวคุณ ให้กลายเป็นผลลัพธ์ที่จับต้องได้จริงบนโลกใบนี้
+
+เมื่อคุณขยับ โลกจะเคลื่อนไหว
+
+มาร่วมปลดปล่อยบิ๊กแบงแห่งความยั่งยืนไปด้วยกัน
+
+[Call to Action / ปุ่มกด]
+
+[ Launch Your Universe ➔ ] (เริ่มสร้างจักรวาลของคุณ)
+
+------------------------------
+
+## 🎨 BRAND COLORS: THE FUTURE OF ESG
+
+ระบบสีที่คัดสรรมาเพื่อขับเคลื่อนภาพลักษณ์แบบ Deep Tech / Web3 Startup ที่ให้ความรู้สึกพรีเมียมและเปี่ยมด้วยพลังงาน
+
+* Deep Space Black (#0B0F19)
+
+* สัดส่วนที่ใช้: 60% (สีพื้นหลังหลัก)
+
+   * อารมณ์: ความลึกลับ ความกว้างใหญ่ของจักรวาล ความมั่นคง และความน่าเชื่อถือระดับสูง
+
+* Aurora Neon Green (#00FF66)
+
+* สัดส่วนที่ใช้: 10% (สีเน้น - Accent Color สำหรับปุ่ม, ลิงก์สำคัญ, หรือขอบโลโก้)
+
+   * อารมณ์: พลังงานที่ไม่มีวันหมด นวัตกรรมสีเขียว ความตื่นตัว และการเกิดใหม่
+
+* Cosmic Smoke Gray (#E2E8F0)
+
+* สัดส่วนที่ใช้: 30% (สีสำหรับตัวอักษรหลัก และกราฟิกเส้นไลน์มินิมอล)
+
+   * อารมณ์: ความสะอาดตา ทันสมัย สไตล์สตาร์ทอัพระดับโลก อ่านง่ายบนพื้นหลังสีด

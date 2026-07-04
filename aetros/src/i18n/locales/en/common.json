@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "community": "Community",
+    "marketplace": "Marketplace",
+    "workshop": "Strategy Lab",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "launch": "Launch Your Universe"
+  },
+  "footer": {
+    "tagline": "The universe of sustainability begins within you",
+    "rights": "© 2026 Aetros. All rights reserved."
+  },
+  "tiers": {
+    "Seed": "Seed",
+    "Sprout": "Sprout",
+    "Forest": "Forest",
+    "Galaxy": "Galaxy"
+  },
+  "roles": {
+    "member": "Member",
+    "expert": "Expert",
+    "moderator": "Moderator",
+    "admin": "Admin"
+  },
+  "topics": {
+    "all": "All",
+    "environment": "Environment",
+    "social": "Social",
+    "governance": "Governance"
+  },
+  "credits": "Carbon Credits",
+  "xp": "XP"
+}

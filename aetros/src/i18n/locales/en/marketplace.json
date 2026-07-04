@@ -1,0 +1,39 @@
+{
+  "title": "Green Marketplace",
+  "subtitle": "Redeem Carbon Credits for rewards and tangible impact",
+  "balance": "Your Carbon Credits",
+  "redeem": "Redeem",
+  "insufficient": "Insufficient Carbon Credits",
+  "checkout": "Confirm Redemption",
+  "confirmRedeem": "Redeem {{name}} for {{cost}} Credits?",
+  "success": "Redemption Successful!",
+  "receipt": "Redemption Receipt",
+  "redeemedAt": "Redeemed at",
+  "close": "Close",
+  "products": {
+    "ecoPioneer": {
+      "name": "Eco Pioneer Badge",
+      "description": "Digital badge for members starting their ESG journey"
+    },
+    "treeCertificate": {
+      "name": "Tree Planting Certificate",
+      "description": "Certificate for planting 1 tree in community forest"
+    },
+    "solarDiscount": {
+      "name": "Solar Panel Partner Discount",
+      "description": "15% discount from Solar Tech partner"
+    },
+    "galaxyBadge": {
+      "name": "Galaxy Guardian Badge",
+      "description": "Exclusive badge for Galaxy Impact Tier"
+    },
+    "evCharger": {
+      "name": "EV Charger Voucher",
+      "description": "Free EV charging voucher — 5 sessions"
+    },
+    "oceanGuardian": {
+      "name": "Ocean Guardian Certificate",
+      "description": "Certificate for restoring 1 sqm of coral reef"
+    }
+  }
+}

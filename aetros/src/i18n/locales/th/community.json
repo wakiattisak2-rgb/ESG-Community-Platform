@@ -1,0 +1,37 @@
+{
+  "title": "Global Community Hub",
+  "subtitle": "แลกเปลี่ยนความรู้ ไอเดีย และความคิด ESG กับชุมชนทั่วโลก",
+  "feed": "Community Feed",
+  "challengesTab": "Challenge Hub",
+  "leaderboard": "Global Leaderboard",
+  "knowledge": "Knowledge Hub",
+  "createPost": "สร้างโพสต์",
+  "postPlaceholder": "แชร์ไอเดีย ESG, ความรู้ หรือโครงการของคุณ...",
+  "submitPost": "โพสต์",
+  "postPending": "โพสต์ของคุณรอการอนุมัติจากผู้ดูแล",
+  "moderatorPanel": "แผงผู้ดูแล — โพสต์รออนุมัติ",
+  "approve": "อนุมัติ",
+  "reject": "ปฏิเสธ",
+  "joinChallenge": "เข้าร่วม Challenge",
+  "joined": "เข้าร่วมแล้ว",
+  "progress": "ความคืบหน้า",
+  "participants": "ผู้เข้าร่วม",
+  "days": "วัน",
+  "upvote": "Upvote",
+  "comments": "ความคิดเห็น",
+  "share": "แชร์",
+  "challenges": {
+    "zeroWaste": {
+      "title": "7-Day Zero Waste Challenge",
+      "description": "ลดขยะให้เป็นศูนย์ใน 7 วัน — บันทึกทุก action ใน dashboard"
+    },
+    "carbonFree": {
+      "title": "14-Day Carbon-Free Commute",
+      "description": "เดินทางแบบไม่ปล่อย carbon 14 วันติดต่อกัน"
+    },
+    "greenCommute": {
+      "title": "30-Day Green Commute",
+      "description": "ใช้ EV, จักรยาน หรือขนส่งสาธารณะ 30 วัน"
+    }
+  }
+}

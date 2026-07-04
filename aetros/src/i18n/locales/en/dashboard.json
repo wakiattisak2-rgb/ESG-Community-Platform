@@ -1,0 +1,37 @@
+{
+  "welcomeBack": "Welcome back, Cosmic Innovator {{name}}",
+  "greeting": "Hello, {{name}}",
+  "impactTier": "Impact Tier",
+  "innerUniverse": "Inner Universe — Eco-Avatar",
+  "avatarHint": "Log ESG activities to grow your Eco-Avatar",
+  "actionTracker": "Dynamic Action Tracker",
+  "actionHint": "Tap a card to log an action — earn XP and Carbon Credits instantly",
+  "selectAction": "Select activity",
+  "note": "Note (optional)",
+  "logAction": "Log Action",
+  "recentActions": "Recent Actions",
+  "recentCosmicActions": "Recent Cosmic Actions",
+  "noActions": "No actions yet — start logging today!",
+  "earned": "Earned +{{xp}} XP and +{{credits}} Carbon Credits",
+  "totalXp": "Total XP Earned",
+  "totalCredits": "Total Carbon Credits",
+  "xpToTier": "{{remaining}} XP to {{tier}}",
+  "simulateLevelUp": "Simulate Level Up",
+  "resetSimulate": "Reset Preview",
+  "signInRequired": "Please sign in to access your dashboard",
+  "tiers": {
+    "nebulaNovice": "Nebula Novice",
+    "stellarShaper": "Stellar Shaper",
+    "galacticGuardian": "Galactic Guardian"
+  },
+  "actions": {
+    "evTransport": "EV / Public Transport",
+    "recycling": "Recycling / Zero Plastic",
+    "treeVolunteer": "Tree Planting / Volunteering",
+    "energySave": "Energy Saving",
+    "waterSave": "Water Conservation",
+    "plantBased": "Plant-based Meal",
+    "zeroWaste": "Zero Waste",
+    "greenCommute": "Cycling / Carpool"
+  }
+}

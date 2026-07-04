@@ -1,0 +1,37 @@
+{
+  "welcomeBack": "ยินดีต้อนรับกลับ นักสร้างจักรวาล {{name}}",
+  "greeting": "สวัสดี, {{name}}",
+  "impactTier": "Impact Tier",
+  "innerUniverse": "Inner Universe — Eco-Avatar",
+  "avatarHint": "บันทึกกิจกรรม ESG เพื่อเติบโต Eco-Avatar ของคุณ",
+  "actionTracker": "Dynamic Action Tracker",
+  "actionHint": "แตะการ์ดเพื่อบันทึกกิจกรรม — รับ XP และ Carbon Credits ทันที",
+  "selectAction": "เลือกกิจกรรม",
+  "note": "หมายเหตุ (ไม่บังคับ)",
+  "logAction": "บันทึกกิจกรรม",
+  "recentActions": "กิจกรรมล่าสุด",
+  "recentCosmicActions": "Recent Cosmic Actions",
+  "noActions": "ยังไม่มีกิจกรรม — เริ่มบันทึกวันนี้เลย!",
+  "earned": "ได้รับ +{{xp}} XP และ +{{credits}} Carbon Credits",
+  "totalXp": "Total XP Earned",
+  "totalCredits": "Total Carbon Credits",
+  "xpToTier": "อีก {{remaining}} XP สู่ {{tier}}",
+  "simulateLevelUp": "Simulate Level Up",
+  "resetSimulate": "Reset Preview",
+  "signInRequired": "กรุณาเข้าสู่ระบบเพื่อใช้แดชบอร์ด",
+  "tiers": {
+    "nebulaNovice": "Nebula Novice",
+    "stellarShaper": "Stellar Shaper",
+    "galacticGuardian": "Galactic Guardian"
+  },
+  "actions": {
+    "evTransport": "EV / ขนส่งสาธารณะ",
+    "recycling": "รีไซเคิล / Zero Plastic",
+    "treeVolunteer": "ปลูกต้นไม้ / อาสาสมัคร",
+    "energySave": "ประหยัดพลังงาน",
+    "waterSave": "ประหยัดน้ำ",
+    "plantBased": "Plant-based Meal",
+    "zeroWaste": "Zero Waste",
+    "greenCommute": "จักรยาน / Carpool"
+  }
+}

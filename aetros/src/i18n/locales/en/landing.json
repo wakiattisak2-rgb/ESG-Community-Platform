@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "ESG · WEB3 · COMMUNITY",
+    "headlineBefore": "The Universe Begins",
+    "headlineHighlight": "Within",
+    "headlineAfter": "You.",
+    "description": "Aetros is the deep-tech community for ESG — turning individual awareness into planetary impact.",
+    "cta": "Launch Your Universe",
+    "ctaSecondary": "Read the manifesto"
+  },
+  "stats": {
+    "carbonReduced": "KG CO₂ Reduced",
+    "treesPlanted": "Trees Sponsored",
+    "activeInnovators": "Active Innovators"
+  },
+  "story": {
+    "title": "Brand Story: AETROS",
+    "subtitle": "Connecting Aether + Ethos into a global ESG community",
+    "p1": "We are often told to \"save the planet\" as if Earth is something external, separate from ourselves.",
+    "p2": "In truth, humanity and nature are not separate. We are all composed of the same elements and energy as the stars in the universe.",
+    "p3": "Aetros believes that the true power to drive Environment, Social, and Governance (ESG) does not begin with regulations, rules, or report numbers... but erupts from \"Your Inner Universe\" — awareness, ideas, and every small action ready to create an extraordinary ripple.",
+    "p4": "The name Aetros is born from merging Aether (the ancient substance weaving space) and Ethos (the moral compass of governance).",
+    "p5": "When you move, the world moves — let's unleash the Big Bang of sustainability together."
+  },
+  "bento": {
+    "title": "The Aetros Ecosystem",
+    "subtitle": "Every tool you need to create real impact",
+    "dashboard": {
+      "title": "Inner Universe",
+      "desc": "Eco-Avatar and Action Tracker to log daily ESG activities"
+    },
+    "community": {
+      "title": "Global Community",
+      "desc": "Exchange knowledge, challenges, and green idea crowdsourcing"
+    },
+    "marketplace": {
+      "title": "Impact Rewards",
+      "desc": "Redeem Carbon Credits for badges, certificates, and partner discounts"
+    },
+    "knowledge": {
+      "title": "Knowledge Hub",
+      "desc": "ESG knowledge library for beginners to experts, including ESG Reports"
+    },
+    "workshop": {
+      "title": "Strategy Lab",
+      "desc": "Interactive JTBD → VPC → BMC workshop to crystallize your business model"
+    }
+  }
+}

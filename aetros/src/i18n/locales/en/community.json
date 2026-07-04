@@ -1,0 +1,37 @@
+{
+  "title": "Global Community Hub",
+  "subtitle": "Exchange ESG knowledge, ideas, and initiatives with the global community",
+  "feed": "Community Feed",
+  "challengesTab": "Challenge Hub",
+  "leaderboard": "Global Leaderboard",
+  "knowledge": "Knowledge Hub",
+  "createPost": "Create Post",
+  "postPlaceholder": "Share your ESG idea, knowledge, or project...",
+  "submitPost": "Post",
+  "postPending": "Your post is pending moderator approval",
+  "moderatorPanel": "Moderator Panel — Pending Posts",
+  "approve": "Approve",
+  "reject": "Reject",
+  "joinChallenge": "Join Challenge",
+  "joined": "Joined",
+  "progress": "Progress",
+  "participants": "Participants",
+  "days": "days",
+  "upvote": "Upvote",
+  "comments": "Comments",
+  "share": "Share",
+  "challenges": {
+    "zeroWaste": {
+      "title": "7-Day Zero Waste Challenge",
+      "description": "Reduce waste to zero in 7 days — log every action in dashboard"
+    },
+    "carbonFree": {
+      "title": "14-Day Carbon-Free Commute",
+      "description": "Zero-carbon commute for 14 consecutive days"
+    },
+    "greenCommute": {
+      "title": "30-Day Green Commute",
+      "description": "Use EV, bicycle, or public transit for 30 days"
+    }
+  }
+}
