@@ -34,3 +34,6 @@ user name.txt
 # Supabase local link cache
 supabase/.temp/
 supabase/.branches/
+
+# Vercel
+.vercel
