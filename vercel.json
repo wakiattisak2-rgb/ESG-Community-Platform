@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "cd aetros && npm install && npm run build",
+  "buildCommand": "npm run build --prefix aetros",
   "outputDirectory": "aetros/dist",
-  "installCommand": "cd aetros && npm install",
-  "rewrites": [{ "source": "/((?!assets/).*)", "destination": "/index.html" }]
+  "installCommand": "npm install --prefix aetros",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }

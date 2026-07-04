@@ -1,0 +1,10 @@
+{
+  "name": "esg-community-platform",
+  "private": true,
+  "description": "Monorepo root — app lives in aetros/",
+  "scripts": {
+    "dev": "npm run dev --prefix aetros",
+    "build": "npm run build --prefix aetros",
+    "preview": "npm run preview --prefix aetros"
+  }
+}
